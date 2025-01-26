@@ -24,7 +24,11 @@ function App() {
       <h3>React Core Concepts</h3>
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click Me 2</button>
-      <button onClick={addToFive(2)}>Click Me 2</button>
+      <button onClick={addToFive(2)}>Click Me 3</button>
+
+      {/* create an arrow function inside event handler */}
+
+      <button onClick={() => addToFive(3)}>click me 4</button>
     </>
   )
 }
