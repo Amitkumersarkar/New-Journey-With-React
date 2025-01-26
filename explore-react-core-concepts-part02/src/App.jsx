@@ -22,6 +22,11 @@ function App() {
   return (
     <>
       <h3>React Core Concepts</h3>
+
+      {/* auto import */}
+
+      <Counter> </Counter>
+
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click Me 2</button>
       <button onClick={addToFive(2)}>Click Me 3</button>
