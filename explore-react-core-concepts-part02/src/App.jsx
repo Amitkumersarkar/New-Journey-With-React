@@ -1,4 +1,5 @@
 import './App.css'
+import Users from './users';
 
 function App() {
 
@@ -23,9 +24,14 @@ function App() {
     <>
       <h3>React Core Concepts</h3>
 
+      {/* import user */}
+
+      <Users></Users>
+
       {/* auto import */}
 
-      <Counter> </Counter>
+      {/* <Counter> </Counter> */}
+      <counter></counter>
 
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click Me 2</button>
